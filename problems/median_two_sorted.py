@@ -38,8 +38,7 @@ class Solution:
                 left = part_x + 1 # 3 # TODO: EDGE CASE, it will prematurely break if one array contains all the elements larger than other.
         
         raise ValueError(f'No solution for {nums1} and {nums2}')
-                
-        
+
         
 
 class TestMedianTwoSorted(unittest.TestCase):
