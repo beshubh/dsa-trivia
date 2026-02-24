@@ -28,4 +28,3 @@ class Solution:
             for col in range(COLS):
                 if grid[row][col] == 0:
                     bfs(row, col)
-a
