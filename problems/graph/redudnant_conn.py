@@ -34,4 +34,5 @@ class Solution:
        for u, v in edges:
            if not dsu.union(u, v):
                return [u, v]
-        raise ValueError("No solution exists")
+
+       raise ValueError("No solution exists")
